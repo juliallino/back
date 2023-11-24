@@ -110,6 +110,6 @@ app.get('*', (req, res) => {
     res.send("Hello again I am working my friend to the moon and behind <3");
 });
 
-app.listen(5000, () => {
-    console.log(`> Ready on http://localhost:5000`);
+app.listen(5050, () => {
+    console.log(`> Ready on http://localhost:5050`);
 });
